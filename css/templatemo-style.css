@@ -129,15 +129,15 @@ figure {
   opacity: 1 !important;
 }
 
-video {
-  position: fixed;
-  opacity: 50%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
+/*video {*/
+/*  position: fixed;*/
+/*  opacity: 50%;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  min-width: 100%; */
+/*  min-height: 100%;*/
+/*}*/
 #video:after {
   content: '';
   opacity: 0.75;
@@ -494,6 +494,8 @@ a#logo {
 }
 .counter-box span {
   font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .counter-icon {
   font-size: 30px;
