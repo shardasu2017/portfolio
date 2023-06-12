@@ -131,6 +131,8 @@ figure {
 
 video {
   position: fixed;
+  opacity: 50%;
+  top: 0;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -491,8 +493,7 @@ a#logo {
   background: rgba(0,0,0,0.25);
 }
 .counter-box span {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 20px;
 }
 .counter-icon {
   font-size: 30px;
